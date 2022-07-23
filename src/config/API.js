@@ -3,7 +3,7 @@ import axios from "axios";
 export const API = axios.create({
   baseURL:
     process.env.SERVER_URL ||
-    "https://waysbeans-app-backend.herokuapp.com/api/v1" ||
+    "https://testfullstack-talentaindonesia.herokuapp.com/api/v1" ||
     "http://localhost:5000/api/v1",
 });
 
