@@ -1,0 +1,67 @@
+.auth {
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth .container .row {
+  width: 100%;
+  height: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* imageSide */
+.auth .container .row .imageSide {
+  background-color: #ff715b7d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth .container .row .imageSide img {
+  width: 70%;
+}
+
+.auth .container .row .imageSide h1 {
+  margin-top: 3vh;
+  font-size: 300%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+}
+
+/* inputSide */
+.auth .container .row .inputSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.auth .container .row .inputSide .inputOption {
+  margin-top: 5vh;
+  font-size: 100%;
+  font-weight: 400;
+  text-align: center;
+}
+
+.auth .container .row .inputSide span {
+  font-size: 100%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.auth .container .row .inputSide span:hover {
+  cursor: pointer;
+}

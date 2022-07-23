@@ -1,0 +1,133 @@
+.friends {
+  width: 70% !important;
+  margin-top: 8vh;
+}
+
+/* header */
+.friends .header .titleSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.friends .header .titleSide h1 {
+  color: #ff826f;
+  font-size: 150%;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.241) !important;
+}
+
+.friends .header .actionSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.friends .header .actionSide button {
+  background-color: #ff826f !important;
+  color: #fff !important;
+  font-size: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: none;
+  border: none !important;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.601);
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1) !important;
+}
+
+.friends .header .actionSide button:hover {
+  cursor: pointer;
+  background-color: rgb(252, 74, 47) !important;
+  outline: none;
+  border: none;
+}
+
+/* content */
+.friends .content {
+  margin-top: 5vh;
+}
+
+.friends .content table {
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.601);
+}
+
+.friends .content table thead {
+  background-color: #ff826f;
+  color: #fff;
+}
+
+.friends .content table tbody tr:nth-child(even) {
+  background-color: #ff715b7d;
+}
+
+.friends .content table tbody tr td {
+  vertical-align: middle;
+}
+
+.friends .content table tbody tr td button {
+  cursor: pointer;
+  width: 25%;
+  margin: 0 0.1vw;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.friends .content table tbody tr td button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.friends .content table tbody tr td .btnDelete {
+  background-color: #f00000;
+}
+
+.friends .content table tbody tr td .btnDelete:hover {
+  background-color: #c00000;
+}
+
+.friends .content table tbody tr td .btnEdit {
+  background-color: #3ccf4e;
+}
+
+.friends .content table tbody tr td .btnEdit:hover {
+  background-color: #29a538;
+}
+
+/* not found */
+.friends .notFound {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.friends .notFound img {
+  width: 50%;
+}
+
+.friends .notFound h1 {
+  font-size: 250%;
+}
+
+/* alerts */
+.swal2-container .swal2-title {
+  font-size: 140% !important;
+}
+
+.swal2-container .swal2-actions {
+  width: 100% !important;
+}
+
+.swal2-container .swal2-styled {
+  width: 30% !important;
+}
+
+.swal2-container .swal2-confirm {
+  background-color: #ff826f !important;
+}

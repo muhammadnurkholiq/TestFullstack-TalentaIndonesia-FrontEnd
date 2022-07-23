@@ -1,0 +1,62 @@
+.navbar {
+  background-color: #ff826f;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+}
+
+.navbar .navbar-brand {
+  font-size: 150%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  color: #fff;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+}
+
+.navbar .navbar-nav {
+  gap: 1vw;
+}
+
+.navbar .navbar-brand {
+  font-size: 200%;
+  color: #fff !important;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 110%;
+  color: #fff !important;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+}
+
+.navbar .navbar-nav .nav-link.active:after,
+.navbar .navbar-nav .nav-link:hover:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #fff;
+  width: 50%;
+  margin: 1vh auto 0;
+}
+
+.navbar .navbar-nav .nav-logout {
+  font-size: 110%;
+  color: #fff !important;
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1);
+  background-color: transparent;
+  border: none;
+  padding-top: -5vh;
+  height: fit-content;
+}
+
+.navbar .navbar-nav .nav-logout:focus {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar .navbar-nav .nav-logout:active {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}

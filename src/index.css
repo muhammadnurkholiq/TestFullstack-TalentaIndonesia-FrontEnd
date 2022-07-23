@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* react-notification */
+.notification-container {
+  width: 25vw !important;
+  font-family: Avenir !important;
+  margin-top: 10vh;
+}
+
+.notification-container .notification .notification-message .title {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* alerts */
+.swal2-container .swal2-title {
+  font-size: 140% !important;
+}
+
+.swal2-container .swal2-actions {
+  width: 100% !important;
+}
+
+.swal2-container .swal2-styled {
+  width: 30% !important;
+}
+
+.swal2-container .swal2-confirm {
+  background-color: #ff826f !important;
 }

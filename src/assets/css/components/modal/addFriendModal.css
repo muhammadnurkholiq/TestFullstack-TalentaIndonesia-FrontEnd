@@ -1,0 +1,70 @@
+.modalAddFriend .modal-header,
+.modalAddFriend .Modal-body,
+.modalAddFriend .modal-footer {
+  border: none;
+}
+
+.modalAddFriend .modal-header .modal-title {
+  width: 100%;
+  text-align: center;
+  color: #fb5c43;
+  font-size: 200%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modalAddFriend form {
+  width: 100%;
+  padding: 0 1vw;
+  margin-bottom: 2vh;
+}
+
+.modalAddFriend form select {
+  border: 2px solid #ff715bb4 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.modalAddFriend form select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.modalAddFriend form .modal-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.modalAddFriend form .modal-footer button {
+  width: 25%;
+  font-size: 80%;
+  padding: 0.1vh 0;
+  letter-spacing: 0.09vw;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.modalAddFriend form .modal-footer button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.modalAddFriend form .modal-footer .btnCancel {
+  background-color: #fd4242 !important;
+}
+
+.modalAddFriend form .modal-footer .btnCancel:hover {
+  background-color: #f00000 !important;
+}
+
+.modalAddFriend form .modal-footer .btnSubmit {
+  background-color: #3ccf4e !important;
+}
+
+.modalAddFriend form .modal-footer .btnSubmit:hover {
+  background-color: #29a538 !important;
+}

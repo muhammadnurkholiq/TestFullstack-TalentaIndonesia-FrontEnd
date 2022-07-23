@@ -1,0 +1,60 @@
+.report .reportHeader {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.report .btnPrint {
+  background-color: #ff715bb4 !important;
+  color: #fff !important;
+  font-size: 100%;
+  font-weight: 600;
+  padding: 1vh 0 !important;
+  text-transform: uppercase;
+  outline: none;
+  border: none !important;
+  width: 20%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.601);
+  text-shadow: 0px 0px 9px rgba(150, 150, 150, 1) !important;
+}
+
+.report .btnPrint:hover {
+  cursor: pointer;
+  background-color: rgb(255, 113, 91) !important;
+  outline: none;
+  border: none;
+}
+
+/* print  */
+.print {
+  width: 70%;
+  margin: 1vh auto 5vh;
+}
+
+.print {
+  padding: 3vh 5vw 0;
+}
+
+.print h1 {
+  color: #ff826f;
+  font-size: 300%;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.133) !important;
+}
+
+/* not found */
+.report .notFound {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.report .notFound img {
+  width: 50%;
+}
+
+.report .notFound h1 {
+  font-size: 250%;
+}

@@ -1,0 +1,25 @@
+.friendsTable h1 {
+  margin-top: 5vh !important;
+  margin-bottom: 2vh !important;
+}
+
+.friendsTable table {
+  width: 100% !important;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.601);
+}
+
+.friendsTable table thead {
+  background-color: #ff826f;
+  color: #fff;
+}
+
+.friendsTable table tbody tr:nth-child(even) {
+  background-color: #ff715b7d;
+}
+
+.friendsTable table tbody tr td {
+  vertical-align: middle;
+}
